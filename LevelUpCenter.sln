@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUpCenter", "LevelUpCenter\LevelUpCenter.csproj", "{56C3906F-F5C1-4CCD-AA2F-E5CD3E5AC881}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelUpCenter.Test", "LevelUpCenter.Test\LevelUpCenter.Test.csproj", "{A4796AC4-444E-4753-8AB9-EA5CFCE415DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{56C3906F-F5C1-4CCD-AA2F-E5CD3E5AC881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56C3906F-F5C1-4CCD-AA2F-E5CD3E5AC881}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56C3906F-F5C1-4CCD-AA2F-E5CD3E5AC881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4796AC4-444E-4753-8AB9-EA5CFCE415DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4796AC4-444E-4753-8AB9-EA5CFCE415DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4796AC4-444E-4753-8AB9-EA5CFCE415DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4796AC4-444E-4753-8AB9-EA5CFCE415DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

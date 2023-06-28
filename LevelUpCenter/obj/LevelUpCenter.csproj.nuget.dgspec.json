@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\aplicaciones web\\Backend\\LevelUpCenter\\LevelUpCenter.csproj": {}
+    "D:\\aplicaciones web\\Backend-6\\Backend\\LevelUpCenter\\LevelUpCenter.csproj": {}
   },
   "projects": {
-    "D:\\aplicaciones web\\Backend\\LevelUpCenter\\LevelUpCenter.csproj": {
+    "D:\\aplicaciones web\\Backend-6\\Backend\\LevelUpCenter\\LevelUpCenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\aplicaciones web\\Backend\\LevelUpCenter\\LevelUpCenter.csproj",
+        "projectUniqueName": "D:\\aplicaciones web\\Backend-6\\Backend\\LevelUpCenter\\LevelUpCenter.csproj",
         "projectName": "LevelUpCenter",
-        "projectPath": "D:\\aplicaciones web\\Backend\\LevelUpCenter\\LevelUpCenter.csproj",
+        "projectPath": "D:\\aplicaciones web\\Backend-6\\Backend\\LevelUpCenter\\LevelUpCenter.csproj",
         "packagesPath": "C:\\Users\\51958\\.nuget\\packages\\",
-        "outputPath": "D:\\aplicaciones web\\Backend\\LevelUpCenter\\obj\\",
+        "outputPath": "D:\\aplicaciones web\\Backend-6\\Backend\\LevelUpCenter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\51958\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -36,8 +36,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -53,7 +53,11 @@
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -74,6 +78,10 @@
             "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.15.0, )"
             }
           },
           "imports": [
